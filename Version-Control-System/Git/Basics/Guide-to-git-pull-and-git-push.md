@@ -10,7 +10,7 @@ The basic syntax of git pull is:
 ```
 git pull [options] [repository] [refspec]
 ```
-This command does two main things: first, it executes `git fetch` which contacts the remote repository and pulls down any data it doesn't already have, including updates to branches and tags. Second, it merges one of these branches (usually the corresponding branch) into your current branch, combining the remote changes with your local ones. The merge aspect of `git pull` is what differentiates it from `git fetch`, which only fetches changes without merging them.
+This command does two main things: first, it executes `git fetch` which contacts the remote repository and pulls down any data it doesn't already have, including updates to branches and tags. Second, it merges one of these branches (usually the corresponding Viewing Commit Historybranch) into your current branch, combining the remote changes with your local ones. The merge aspect of `git pull` is what differentiates it from `git fetch`, which only fetches changes without merging them.
 
 ### Flags and Options for git pull
 `git pull` supports various flags and options that modify its behavior, making it a versatile tool for different scenarios. Here are some of the most commonly used flags:
